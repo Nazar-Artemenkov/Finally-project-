@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="wstyle.css">
+    <script src="windex.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <div class="container">
+        <div class="input-container">
+            <input type="text" id="city" placeholder="Enter city">
+            <button onclick="fetchWeather()">Search</button>
+        </div>
+        <div id="weather-result"></div>
+        <div id="error-message" class="error"></div>
+    </div>
+</body>
+</html>
